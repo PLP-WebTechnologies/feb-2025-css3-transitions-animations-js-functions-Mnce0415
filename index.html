@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhanced Animations + Preferences</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome, <span id="username-display">Guest</span>!</h1>
+
+  <input type="text" id="username" placeholder="Enter your name" />
+  <button id="saveBtn">Save Name</button>
+
+  <select id="animationSelect">
+    <option value="pop">Pop</option>
+    <option value="rotate">Rotate</option>
+    <option value="shake">Shake</option>
+    <option value="bounce">Bounce</option>
+    <option value="flip">Flip</option>
+    <option value="fade">Fade</option>
+  </select>
+  
+
+  <button id="themeToggle">Toggle Theme</button>
+
+  <div id="box" class="box">🎉</div>
+
+  <audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
